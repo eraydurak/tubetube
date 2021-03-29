@@ -1,0 +1,53 @@
+.leftside {
+	width: 245px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 92.3vh;
+	display: flex;
+	flex-direction: column;
+	background: #333;
+	color: white;
+	padding: 5px 0;
+}
+.first,
+.second,
+.third,
+.fourth,
+.fifth,
+.last {
+	display: flex;
+	flex-direction: column;
+	margin: 5px 0;
+	a {
+		width: 240px;
+		height: 32px;
+		color: whitesmoke;
+		text-decoration: none;
+		padding: 10px;
+		padding-left: 15px;
+		font-size: normal;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		&:hover {
+			background-color: rgb(133, 128, 128);
+		}
+		span {
+			margin-right: 15px;
+		}
+	}
+}
+
+.baslik {
+	text-transform: uppercase;
+	padding-left: 15px;
+	color: #f4f4f4be;
+	margin-top: 10px;
+}
+
+.last {
+	p {
+		padding: 10px;
+		font-size: 13px;
+	}
+}
